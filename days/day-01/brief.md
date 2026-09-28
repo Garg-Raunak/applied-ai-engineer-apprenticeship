@@ -4,7 +4,7 @@ Estimated focused time: 5-6 hours
 
 ## Main build task
 
-Set up a Python 3.12 virtual environment and build a minimal FastAPI service in `01-python-fastapi-foundations`.
+Set up a Python 3.12 virtual environment and build a minimal FastAPI service in `projects/learning-tasks-api`.
 
 The service must expose `GET /health` and return status code `200` with this exact JSON body:
 
@@ -27,7 +27,7 @@ Create one automated test that proves the endpoint returns this status code and 
 
 ## Suggested command sequence
 
-Run these from `01-python-fastapi-foundations` in a new PowerShell terminal:
+Run these from `projects/learning-tasks-api` in a new PowerShell terminal:
 
 ```powershell
 py -3.12 -m venv .venv
@@ -40,7 +40,7 @@ If PowerShell blocks activation, report the exact error. Do not change execution
 
 ## Small practice task
 
-Create `notes/day-01-python-foundations.md`. In your own words, explain:
+Create `projects/learning-tasks-api/notes/day-01-python-foundations.md`. In your own words, explain:
 
 1. Why a virtual environment exists.
 2. What an ASGI application is at a practical level.
@@ -59,4 +59,4 @@ Create `notes/day-01-python-foundations.md`. In your own words, explain:
 
 ## Evening review submission
 
-Send the commit URL, terminal output for the tests, what you built, what failed and why, one lesson, blocker if any, and actual focused hours.
+Complete `days/day-01/review.md`, commit your work, push to GitHub, then send me the commit link.

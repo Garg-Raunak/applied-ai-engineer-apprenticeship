@@ -2,17 +2,23 @@
 
 Target: secure an Applied AI Engineer, AI Engineer, Generative AI Engineer, or LLM Engineer role by 15 December 2026.
 
-This workspace is build-first. Every study day ends with working code, a test, a commit, and a reflection. Do not paste tutorial code without being able to explain it.
+This is one portfolio repository. It is build-first: every study day ends with working code, a test, a commit, and a reflection. Do not paste tutorial code without being able to explain it.
+
+## Workspace layout
+
+- `days/` contains one folder per study day. Each folder has the task brief and your review log.
+- `projects/` contains the actual applications. A project evolves across several days; its source code never gets copied into daily folders.
+- `daily-log-template.md` is the source template for your daily review.
 
 ## Project sequence
 
-1. `01-python-fastapi-foundations` - tested Python API with PostgreSQL, authentication, logging, Docker, and a clear README.
-2. `02-knowledge-assistant` - production-oriented RAG system with citations, evaluation, and deployment.
-3. `03-approved-workflow-agent` - tool-calling workflow with human approval, audit trail, and failure recovery.
+1. `projects/learning-tasks-api` - tested Python API with PostgreSQL, authentication, logging, Docker, and a clear README.
+2. `projects/knowledge-assistant-rag` - production-oriented RAG system with citations, evaluation, and deployment.
+3. `projects/approved-workflow-agent` - tool-calling workflow with human approval, audit trail, and failure recovery.
 
 ## Daily submission
 
-Copy `daily-log-template.md` to `logs/YYYY-MM-DD.md` each study day. Include the commit URL, actual output, what failed, lesson learned, blocker, and focused hours.
+Complete that day's `review.md`. Include the commit URL, actual output, what failed, lesson learned, blocker, and focused hours.
 
 ## Rules
 
