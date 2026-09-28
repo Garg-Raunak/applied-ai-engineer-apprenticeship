@@ -2,7 +2,7 @@
 
 This application will grow across the first two weeks of the apprenticeship.
 
-Current milestone: Day 1 FastAPI health endpoint.
+Current milestone: Day 1 Python core refresh. The FastAPI health endpoint begins on Day 4.
 
 ## Planned capabilities
 
