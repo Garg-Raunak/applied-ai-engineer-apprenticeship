@@ -1,0 +1,2 @@
+# Add dependencies intentionally as each day requires them.
+# Do not install packages blindly from a tutorial.
