@@ -2,6 +2,9 @@
 
 Estimated focused time: 5-6 hours
 
+Start with [lesson.md](lesson.md). Complete its checkpoints in order before
+attempting the main build task.
+
 ## Main build task
 
 Set up a Python 3.12 virtual environment and rebuild your practical Python foundation before starting FastAPI.
@@ -27,11 +30,15 @@ Create `projects/learning-tasks-api/scratch/day_01_task_summary.py`. It must:
 Run these from the repository root in a new PowerShell terminal:
 
 ```powershell
-py -3.12 -m venv .venv
+python -m venv .venv
 .\.venv\Scripts\Activate.ps1
-python -m pip install --upgrade pip
 python --version
+python -m pip --version
 ```
+
+The `python` command is used because it resolves correctly to Python 3.12 on
+this computer. Package installation is unnecessary today because the task uses
+only Python's standard library.
 
 If PowerShell blocks activation, report the exact error. Do not change execution policy without discussing it first.
 
